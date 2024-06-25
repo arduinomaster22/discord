@@ -20,17 +20,12 @@
     "require": {
         "php": "^8.3",
         "ext-json": "*",
-        "guzzlehttp/guzzle": "*",
-        "illuminate/notifications": "*",
-        "illuminate/support": "*",
-        "illuminate/queue": "*",
-        "illuminate/console": "*",
-        "textalk/websocket": "*"
-    },
-    "require-dev": {
-        "mockery/mockery": "*",
-        "orchestra/testbench": "*",
-        "phpunit/phpunit": "*"
+        "guzzlehttp/guzzle": "^7.8",
+        "illuminate/console": "^11.11",
+        "illuminate/notifications": "^11.11",
+        "illuminate/queue": "^11.11",
+        "illuminate/support": "^11.11",
+        "textalk/websocket": "^1.6"
     },
     "autoload": {
         "psr-4": {
@@ -57,5 +52,10 @@
                 "NotificationChannels\\Discord\\DiscordServiceProvider"
             ]
         }
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.6",
+        "orchestra/testbench": "^9.1",
+        "phpunit/phpunit": "^11.1"
     }
 }
